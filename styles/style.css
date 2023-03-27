@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: black;
+  background-color: #000000;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -12,7 +12,25 @@ body {
 
 .main {
   margin: 1rem;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.main h3,h4 {
+  color: #ffffff;
+}
+
+.main a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.main a:visited {
+  color: #adff2f;
+}
+
+.main a:hover {
+  color: #ff69b4;
+  text-decoration: underline;
 }
 
 #tools {
